@@ -244,7 +244,7 @@ button:hover {
     background-color: #f4f4f4;
 }
 .sixth-container .contents {
-    display: flex !important;
+    display: flex;
     justify-content: center;
     align-items: center;
     padding-top: px;
