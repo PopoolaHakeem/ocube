@@ -375,3 +375,11 @@ hr {
     font-size: 11px;
     color: turquoise;
   }
+
+
+  /* Media qureies */
+
+  /* @media only screen and (max-width: 600px) {
+    .nav-bar {
+        display: none;
+    } */
