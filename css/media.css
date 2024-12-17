@@ -1,6 +1,93 @@
 @media only screen and (max-width: 600px) {
+
+    body {
+        /* margin: 0 25px; */
+    }
+    
     .nav-bar {
         display: none;
+    }
+
+    .first-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        /* justify-content: center; */
+        align-items: center;
+        text-align: center;
+
+    }
+    .heading {
+        padding: 20px 10px;
+    }
+    .first-container p {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 0 20px 10px;
+    }
+    .first-container a {
+        margin: 0 5px;
+    }
+    .first-container img {
+        height: 400px;
+        width: 350px;
+        left: 620px;
+        padding: 0 ;
+    }
+    .calculator {
+        display: none;
+        /* position: absolute;
+        height: 5px;
+        width: 10px;
+        bottom: 20px;
+        left: 20px; */
+    }
+    .teacher {
+        display: none;
+    }
+    .book {
+        display: none;
+    }
+    .award {
+        display: none;
+    }
+
+    .second-container {
+        display: flex;
+        flex-direction: column;
+        padding: 80px 0;
+        /* justify-content: center; */
+        align-items: center;
+        text-align: center;
+
+    }
+    .second-container img {
+        padding: 0 10px !important;
+        height: 30px;
+        width: 90px;
+    }
+    
+    .third-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        padding: 0;
+
+    }
+    .text {
+        padding: 20px 10px;
+    }
+    .image2 {
+        display: block;
+
+        /* height: 30px; */
+        /* width: 35px; */
+        /* left: 620px; */
+        mar: 0 ;
+
+        /* margin: 0 20px; */
     }
 
 
