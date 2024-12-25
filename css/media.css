@@ -119,7 +119,8 @@
     .icons-child {
         width: 100%;
         flex: 1;
-        padding: 0 30px;
+        padding: 0;
+        overflow-x: 0;
 
     }
 
