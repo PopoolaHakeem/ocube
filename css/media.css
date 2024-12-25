@@ -1,7 +1,26 @@
 @media only screen and (max-width: 600px) {
 
+
+    .icons-child {
+        width: 100%;
+        flex: 1;
+
+        
+    }
+
+    .icon-first-container {
+        /* width: 25%; */
+        flex: 1;
+
+    }
     body {
         margin: 0 25px;
+        overflow-x: 0;
+
+    }
+
+    h2 {
+        padding: 0 10px;
     }
 
     .menu-icon {
@@ -77,17 +96,18 @@
         padding: 0;
         text-align: center;
     }
-    .text {
+    .third-container .text {
         padding: 0 10px;
     }
     
-    .image2 {
-        display: none;
+    .third-container img {
+        display: block;
 
-        /* height: 30px; */
-        /* width: 35px; */
-        /* left: 620px; */
-        /* margin: 0 20px; */
+        height: 420px;
+        width: 340px;
+        left: 620px;
+        padding: 0;
+        background-color: red;
     }
 
     .fourth-container {
@@ -96,14 +116,21 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 30px 0;
+        padding: 10px 0;
     }
-    .icons {
-        display: grid;
-       grid-template-columns: auto auto  ;
-       gap: 50px;
-       padding-top: 70px;
+
+    .fourth-container .icons {
+        
+        display: flex;
+        grid-template-columns: 2px;
+        grid-template-rows: 2px;
+        gap: 10px;
+
     }
+    
+
+
+
 
 
 
